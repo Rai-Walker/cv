@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Raúl Velázquez Aguilera</title>
+    <!-- 1. Cargamos Tailwind CSS para los estilos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 2. Cargamos la fuente 'Inter' para un look moderno -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* 3. Aplicamos la fuente 'Inter' como fuente base */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Contenedor principal del CV -->
+    <div class="container mx-auto max-w-5xl my-12 bg-white shadow-2xl rounded-lg overflow-hidden md:flex">
+
+        <!-- ===== COLUMNA IZQUIERDA (BARRA LATERAL) ===== -->
+        <aside class="md:w-1/3 bg-orange-600 text-white p-8">
+            <div class="flex flex-col items-center">
+
+                <!-- FOTO: Cambia la URL 'src' por la de tu foto -->
+                <img class="rounded-full object-cover border-4 border-white shadow-md w-48 h-auto"
+                    src="img/conCamisa.png" alt="Foto de Raúl Velázquez">
+
+                <h1 class="text-3xl font-bold text-center mt-6">Raúl Velázquez Aguilera</h1>
+                <h2 class="text-xl font-light text-center text-orange-100 mt-1">Desarrollador de Aplicaciones Web</h2>
+            </div>
+
+            <!-- Sección de Contacto -->
+            <div class="mt-10">
+                <h3 class="text-xl font-semibold uppercase tracking-wider">Contacto</h3>
+                <ul class="mt-4 space-y-3">
+                    <!-- Email -->
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                            </path>
+                        </svg>
+                        <span>uveraulv@gmail.com</span>
+                    </li>
+                    <!-- Teléfono -->
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                            </path>
+                        </svg>
+                        <span>+34 678 209 607</span>
+                    </li>
+                    <!-- Ubicación -->
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                        <span>Churriana de la Vega, Granada</span>
+                    </li>
+                    <!-- LinkedIn -->
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                        <span>linkedin.com/in/raúl-velázquez-aguilera</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Sección de Habilidades Personales -->
+            <div class="mt-10">
+                <h3 class="text-xl font-semibold uppercase tracking-wider">Habilidades Personales</h3>
+                <ul class="mt-4 space-y-2 list-disc list-inside">
+                    <li>Resolución de problemas</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Adaptabilidad</li>
+                    <li>Gestión del tiempo</li>
+                </ul>
+            </div>
+
+            <!-- Sección de Idiomas -->
+            <div class="mt-10">
+                <h3 class="text-xl font-semibold uppercase tracking-wider">Idiomas</h3>
+                <ul class="mt-4 space-y-2">
+                    <li>
+                        <p class="font-medium">Español: <span class="font-light">Nativo</span></p>
+                    </li>
+                    <li>
+                        <p class="font-medium">Inglés: <span class="font-light">Básico (Alta comprensión lectora)</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- ===== COLUMNA DERECHA (CONTENIDO PRINCIPAL) ===== -->
+        <main class="md:w-2/3 p-8">
+
+            <!-- Sección Resumen Profesional -->
+            <section>
+                <h2 class="text-3xl font-bold text-orange-600 border-b-2 border-orange-200 pb-2">Resumen Profesional</h2>
+                <p class="mt-4 text-gray-700 leading-relaxed">
+                    Profesional con amplia experiencia en logística como mozo de almacén, acostumbrado al trabajo
+                    dinámico y orientado a resultados. Actualmente finalizando el Ciclo Superior de Desarrollo de
+                    Aplicaciones Web, buscando activamente aplicar mis nuevos conocimientos técnicos. Mi objetivo es
+                    encontrar un empleo de duración determinada donde pueda aportar valor, ya sea continuando en el
+                    sector logístico o iniciando mi carrera en el desarrollo web.
+                </p>
+            </section>
+
+            <!-- Sección Experiencia Profesional -->
+            <section class="mt-10">
+                <h2 class="text-3xl font-bold text-orange-600 border-b-2 border-orange-200 pb-2">Experiencia Profesional
+                </h2>
+                <div class="mt-6">
+                    <div class="flex flex-col md:flex-row justify-between items-baseline">
+                        <h3 class="text-xl font-semibold text-gray-800">Mozo de almacén</h3>
+                        <span class="text-sm font-medium text-orange-600 mt-1 md:mt-0">2004 – 2025</span>
+                    </div>
+                    <p class="text-md text-gray-600 italic">Supermercados Dani, Armilla</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                        <li>Preparación de pedidos y gestión de inventario.</li>
+                        <li>Carga y descarga de mercancía.</li>
+                        <li>Recepción y control de mercancía entrante.</li>
+                        <li>Manejo de transpaleta eléctrica y carretilla elevadora.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Sección Formación Académica -->
+            <section class="mt-10">
+                <h2 class="text-3xl font-bold text-orange-600 border-b-2 border-orange-200 pb-2">Formación Académica
+                </h2>
+                <div class="mt-6">
+                    <div class="flex flex-col md:flex-row justify-between items-baseline">
+                        <h3 class="text-xl font-semibold text-gray-800">Ciclo Superior en Desarrollo de Aplicaciones Web
+                        </h3>
+                        <span class="text-sm font-medium text-orange-600 mt-1 md:mt-0">2021 – Actualidad</span>
+                    </div>
+                    <p class="text-md text-gray-600 italic">IES Aguadulce, Aguadulce</p>
+                    <p class="mt-2 text-gray-700">(Elaborando proyecto final)</p>
+                </div>
+            </section>
+
+            <!-- Sección Competencias Técnicas -->
+            <section class="mt-10">
+                <h2 class="text-3xl font-bold text-orange-600 border-b-2 border-orange-200 pb-2">Competencias Técnicas
+                </h2>
+                <div class="mt-4 space-y-4">
+                    <!-- Grupo Frontend -->
+                    <div>
+                        <h4 class="text-md font-semibold text-gray-700">Frontend</h4>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            <span
+                                class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">HTML</span>
+                            <span
+                                class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">CSS3</span>
+                            <span
+                                class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">JavaScript</span>
+                            <span
+                                class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">XML</span>
+                        </div>
+                    </div>
+                    <!-- Grupo Backend -->
+                    <div>
+                        <h4 class="text-md font-semibold text-gray-700">Backend</h4>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            <span
+                                class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">PHP</span>
+                            <span
+                                class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">Laravel</span>
+                            <span
+                                class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">MySQL</span>
+                            <span
+                                class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">SQL</span>
+                        </div>
+                    </div>
+                    <!-- Grupo Sistemas -->
+                    <div>
+                        <h4 class="text-md font-semibold text-gray-700">Sistemas y Servidores</h4>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">Admin.
+                                Windows</span>
+                            <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">Admin.
+                                Linux</span>
+                            <span
+                                class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">Servidores
+                                Apache</span>
+                        </div>
+                    </div>
+                    <!-- Grupo Logística -->
+                    <div>
+                        <h4 class="text-md font-semibold text-gray-700">Logística</h4>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            <span
+                                class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">Transpaleta
+                                eléctrica</span>
+                            <span
+                                class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">Carretilla
+                                elevadora</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
